@@ -1,0 +1,36 @@
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+target/
+
+# === Maven ===
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# === Logs ===
+*.log
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Temporary files ===
+*.swp
+*~
+
+# === Docker / Environment ===
+docker-compose.override.yml
+.env
+
+# === Specific to payment project ===
+payment-service/target/
+streams-processor/target/
